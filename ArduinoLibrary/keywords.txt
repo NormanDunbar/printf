@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Classes (KEYWORD1)
+#######################################
+
+
+#######################################
+# Class Methods & Functions (KEYWORD2)
+#######################################
+printf	KEYWORD2
+sprintf	KEYWORD2
+snprintf	KEYWORD2
+vsnprintf	KEYWORD2
+fctprintf	KEYWORD2
+
+
+######################################
+# Others Constants (LITERAL1)
+#######################################
+PRINTF_INCLUDE_CONFIG_H	LITERAL1
+PRINTF_NTOA_BUFFER_SIZE	LITERAL1
+PRINTF_FTOA_BUFFER_SIZE	LITERAL1
+PRINTF_DEFAULT_FLOAT_PRECISION	LITERAL1
+PRINTF_MAX_FLOAT	LITERAL1
+PRINTF_DISABLE_SUPPORT_FLOAT	LITERAL1
+PRINTF_DISABLE_SUPPORT_EXPONENTIAL	LITERAL1
+PRINTF_DISABLE_SUPPORT_LONG_LONG	LITERAL1
+PRINTF_DISABLE_SUPPORT_PTRDIFF_T	LITERAL1
+
