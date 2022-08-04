@@ -47,6 +47,5 @@ Have fun.
 
 
 Norman Dunbar
-norman@dunbar-it.co.uk
 
 15 September 2020.
