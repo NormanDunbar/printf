@@ -27,7 +27,7 @@ The advice is never to install libraries globally with the command `platformio l
 However, there is always someone with a good reason to do this, so here's my global install.
 
 * Create a global libraries directory. Mine is called `PlatformIO_Libraries`;
-* Copy the directory containing the source and header files for this library into the one above. You *must* copy the directory and contents, not just the contents.
+* Copy the `src` directory containing the source and header files for this library into the one above. You *must* copy the directory and contents, not just the contents. Feel free to rename the new `PlatformIO_Libraries/src` directory to `PlatformIO_Libraries/libPrintf`, if you wish. It will be useful in the future!
 * In your project's `platformio.ini` file, add either:
   * `lib_extra_dirs = /full/path/to/PlatformIO_Libraries` or
   * `lib_extra_dirs = relative/path/to/PlatformIO_Libraries`
